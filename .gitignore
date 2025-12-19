@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.*.local
+.env.local
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Next.js / build
+.next/
+.out/
+.dist/
+dist/
+build/
+.vite/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Misc
+*.tgz
+*.bak
+
+# Mastra / db
+.mastra/
+mastra.db
+
+# Documents directory if used for ingestion (keep out of repo)
+documents/
+
+# keep an example env file tracked
+!.env.example
